@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url("./justdoit.jpg");
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.mainView {
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  width: 240px;
+  height: 242px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 242px;
+  margin: 0 1px;
+  display:  flex;
+  color: #EEC920;
+  
+  /*border-top: -5rem, border-bottom, border-left, border-right */
+}
+
+.done {
+  text-decoration: line-through;
+}
